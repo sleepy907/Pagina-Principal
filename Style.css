@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    background: black;
+    line-height: 1.6;
+}
+
+.Banner{
+    background-image: url(./img/banner.png);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.Banner-conteudo img{
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.Banner h1 {
+    font-size: 2.5rem;
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+
+.Banner p{
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.Banner button{
+    background-color: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.Banner button:hover{
+    background-color: #00bfff;
+    color: white;
+}
+
+.linha01{
+    width: 200%;
+    height: 4px;
+    background-color: #00bfff;
+    margin: 40px auto;
+    border-radius: 2px;
+}
+
+#conteudo{
+    text-align: center;
+}
+
+#conteudo h2{
+    color: #00bfff;
+}
+
+.module span{
+    color: #00bfff;
+}
+
+.module{
+    border: 2px solid #007bff;
+    box-shadow: inset 0 0 10px rgba(0, 191, 255, 0.5);
+    width: 50%;
+    margin: auto;
+    border-radius: 40px;
+    padding: 15px 20px;
+    background-color: #1e1e1e;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+#mundo{
+    background-image: url(./img/woman-code.png);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mundo p{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px #00bfff;
+    font-family: 'segoe UI' , sans-serif;
+}
+
+#Desafio-Profissional{
+    text-align: center;
+}
+
+#Desafio-Profissional h2{
+    font-size: 48px;
+    color: #00bfff;
+}
+
+.fim{
+    background: rgba(0, 123, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+
+}
